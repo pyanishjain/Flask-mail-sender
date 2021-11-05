@@ -1,9 +1,15 @@
+# Use
+
+- I used this for reciving mails form my potfolio website itsanishjain.ml
+- check my potfolio website github for more info
+
 # Flask Mail Sender
 
 Sends mail with data from the post method.
 
 - You can send with your own mail server information.
 - You can send mail with Amazon SES.
+- You can send mail with gmail with app specific password as well
 
 ## Install 
 
@@ -39,3 +45,5 @@ curl -X POST \
 	"body": "<br><br> <b>Mail test</b>"
     }'
 ```
+
+
